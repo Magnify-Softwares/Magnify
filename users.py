@@ -114,7 +114,7 @@ class MemberDumper(Client):
             )
             embed.add_field(name="Server ID", value=str(TARGET_SERVER_ID), inline=True)
             embed.add_field(name="Timestamp", value=datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"), inline=True)
-            embed.set_footer(text="One-time member extraction • Shadow Spy")
+            embed.set_footer(text="One-time member extraction • Magnify by palantir")
             
             payload = {
                 "username": "📊 Member Dumper",
